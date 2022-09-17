@@ -84,7 +84,7 @@ This is the graph using LogisticRegression classifier applied. It has a precisio
 
 This is the graph using SMA of 4 and 100, with 6 months training date from 06/12/2015 - 12/12/2015. It has a precision of 56% and f1 score of 66% for the good trades. The model has a 54% accuracy.
 
-![Scenario 4 Baseline](/images/scenario4_plot.png)
+![Scenario 4 Baseline](/images/scenario4_ploy.png)
 
 
 This is the graph using LogisticRegression classifier applied. It has a precision of 56% and f1 score of 37% for the good trades. The model has a 47% accuracy. Very low f1 score and under 50% accuracy, leading this model/strategy unrecommendable.
@@ -130,15 +130,21 @@ This is the graph using LogisticRegression classifier applied. It has a precisio
 
 # Case 8:
 
-This is the graph using SMA of 15 and 150, with 3 months training date from 04/15/2015 - 07/15/2015. It has a precision of 56% and f1 score of 72% for the good trades. The model has a 56% accuracy.
+This is the graph using SMA of 15 and 150, with 6 months training date from 04/15/2015 - 10/15/2015. It has a precision of 56% and f1 score of 72% for the good trades. The model has a 56% accuracy.
 
 ![Scenario 8 Baseline](/images/scenario8_plot.png)
 
 
 This is the graph using LogisticRegression classifier applied. It has a precision of 57% and f1 score of 66% for the good trades. The model has a 55% accuracy.
 
-
 ![Scenario 8 LogisticRegression](/images/scenario8_test_plot.png)
+
+# Conclusion
+Looking at graph, case 6 using SMA of 5 and 150, with 6 months training date from 04/15/2015 - 10/15/2015, yielded the better returns. 
+
+It is good to understand that having a well bounded SMA and a larger better timed training sample will yield to a better model/return
+
+
 
 
 
