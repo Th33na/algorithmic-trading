@@ -84,13 +84,13 @@ This is the graph using LogisticRegression classifier applied. It has a precisio
 
 This is the graph using SMA of 4 and 100, with 6 months training date from 06/12/2015 - 12/12/2015. It has a precision of 56% and f1 score of 66% for the good trades. The model has a 54% accuracy.
 
-![Scenario 4 Baseline](/images/scenario4_ploy.png)
+![Scenario 4 Baseline](/images/scenario4_plot.png)
 
 
 This is the graph using LogisticRegression classifier applied. It has a precision of 56% and f1 score of 37% for the good trades. The model has a 47% accuracy. Very low f1 score and under 50% accuracy, leading this model/strategy unrecommendable.
 
 
-![Scenario 4 LogisticRegression](/images/scenario4_test_plot.png)
+![Scenario 4 LogisticRegression](/images/scenario4_test_ploy.png)
 
 # Case 5:
 
